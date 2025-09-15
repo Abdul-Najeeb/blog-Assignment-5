@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bitter", serif;  
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    padding: 50px 60px;
+    border-bottom: 1px solid rgb(208, 206, 206);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .heading h1{
+    font-weight: 400;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+nav .icons{
+    display: flex;
+    column-gap: 50px;
+}
+.icons h4 a{
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #111;
+    font-size: 22px;
+}
+.sec1{
+    height: 130%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    height: 533px;
+    width: 854px;
+    margin-top: 100px;
+}
+.txt h1{
+    font-size: 54px;
+    font-weight: 600;
+    width: 24ch;
+    margin: 25px auto;
+    text-align: center;
+}
+.txt h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    width: 40ch;
+    letter-spacing: 3px;
+    margin: 0px auto;
+    margin-bottom: 35px;
+}
+.txt #line{
+    height: 3px;
+    width: 640px;
+    background-color: #111;
+    margin: 10px auto;
+}
+.article-heading{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.sec2{
+    height: 280%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+.sec2 .main{
+    height: 100%;
+    width: 45%;
+    /* background-color: rgba(154, 154, 154, 0.671); */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.box{
+    height: 300px;
+    width: 310px;
+    object-fit: cover;
+    text-align: center;
+    margin: 10px auto;
+    /* background-color: red; */
+}
+.all-img{
+    height: 60%;
+    width: 100%;
+}
+.all-h3{
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0px 30px;
+}
+footer{
+    height: 480px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+footer h2{
+    letter-spacing: 3.7px;
+    margin-top: 9px;
+}
+footer .footer-box{
+    height: 400px;
+    width: 500px;
+    /* background-color: red; */
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    margin-top: 40px;
+    padding: 100px 0px;
+}
+footer .footer-box *{
+    margin-bottom: 25px;
+}
+.footer-box h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+footer .footer-box h5{
+    padding: 0px 30px;
+    font-size: 15px;
+}
+footer .links{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+.links h4 a{
+    /* text-decoration: none; */
+    color: #fff;
+}
+
+
+
+/* PAGE 2  */
+
+
+
+.sec1 .blog-image{
+    height: 900px;
+    width: 100%;
+}
+.blog-image img{
+    height: 900px;
+    width: 100%;
+}
+
+.blog-sec2{
+    height: 320%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.blog-sec2 .sec2-main{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    padding: 30px;
+}
+.sec2-main .bx1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 15px;
+}
+.bx1 img{
+    width: 70px;
+    padding: 0px 10px;
+}
+.bx1 .txt2{
+    padding: 0px 15px;
+}
+.bx1 .txt2 h5{
+    font-size: 15px;
+    font-weight: 500;
+}
+.bx1 .txt2 h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.bx1 .icons{
+    padding-left: 260px;
+    font-size: 32px;
+}
+.icons i{
+    padding-left: 10px;
+}
+.sec2-main h4{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 22px;
+    line-height: 40px;
+}
+.sec2-main h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.sec2-mai .r{
+    height: 570;
+    width: 854;
+    padding-top: 30px;
+}
+.sec2-main .r img{
+    height: 570;
+    width: 854;
+    margin: 30px 0px;
+    margin-left: -75px;
+}
+li{
+    padding-bottom: 30px;
+}
+.sec2-main h4 a{
+    color: #111;
+}
+.sec2-main .btns{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.btns button{
+    padding: 15px 70px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid rgba(159, 159, 159, 0.29);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 40px 0px;
+}
+button i{
+    padding-right: 8px;
+    font-size: 25px;
+}
+/* .sec2-main .dash{
+    height: 5px;
+    width: 100%;
+    color: #fff;
+    margin: 35px 0px;
+    color: #111;
+    border-bottom: 1px solid black;
+    text-decoration-line: underline;
+    text-decoration: dotted;
+
+} */
+.sec2-main .mikka{
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+.mikka img{
+    height: 60px;
+    width: 60px;
+    margin: 0px 30px;
+}
+.mikka h4{
+    line-height: 25px;
+    font-size: 17px;
+}
+.mikka span{
+    font-weight: 700;
+}
+.sec2-main .line-emoji{
+    height: 2px;
+    width: 100%;
+    background-color: #111;
+}
+
+.sec3{
+    height: 100%;
+    width: 100%;
+}
+.sec3 .img-line{
+    height: 2px;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec3 h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 50px ;
+    margin-bottom: 30px ;
+}
+.sec3 .next-image{
+    height: 90%;
+    width: 70%;
+    margin: 0% auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec3-h3{
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sign{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign .sign-up{
+    height: 75%;
+    width: 50%;  
+    border: 2px solid black;
+    border-top: 12px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign-up h1{
+    font-size: 40px;
+    font-weight: 600;
+    word-spacing: 15px;
+    margin-top: 10px;
+}
+.sign-up h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px auto;
+    text-align: center;
+    width: 40ch;
+    line-height: 40px;
+}
+.another-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.another-box input{
+    padding: 15px 100px;
+    padding-left: 10px;
+}
+.another-box span{
+    padding: 12.6px 30px;
+    background-color: #111;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
